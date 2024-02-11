@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.todo_area{
+    position: sticky;
+    left: 50%;
+    transform: translate(-50%);
+    width: 400px;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #ffe4e4;
+    box-shadow: -3px 2px 7px 0px rgba(0,0,0,0.52);
+    -webkit-box-shadow: -3px 2px 7px 0px rgba(0,0,0,0.52);
+    -moz-box-shadow: -3px 2px 7px 0px rgba(0,0,0,0.52);
+}
+h1{
+    text-align: center;
+    font-size: 28px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.input{
+    padding: 6px 8px;
+    border: 1px solid #000;
+    outline: none;
+    font-size: 16px;
+    width: 250px;
+}
+.err{
+    color: #ff0000;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.btn{
+    padding: 6px 8px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.list{
+    margin-left: 20px;
+    margin-top: 30px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    font-size: 18px;
+    position: relative;
+}
+.list li{
+    padding: 5px;
+    background-color: #ffffff63;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.list li::after{
+    position: absolute;
+    content: "⇒";
+    top: 6px;
+    left: -25px;
+}
+.list li button{
+    /* margin-left: 30px; */
+    padding: 4px 6px;
+    background-color: blueviolet;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
