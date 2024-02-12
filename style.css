@@ -12,7 +12,7 @@
     justify-content: center;
 }
 .todo_area{
-    width: 400px;
+    width: 600px;
     margin-top: 50px;
     padding: 20px;
     background-color: #ffe4e4;
@@ -25,6 +25,9 @@ h1{
     font-size: 28px;
     text-decoration: underline;
     margin-bottom: 20px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
 }
 .input{
     padding: 6px 8px;
@@ -68,10 +71,15 @@ h1{
 }
 .list li button{
     /* margin-left: 30px; */
-    padding: 4px 6px;
+    padding: 5px 0;
+    width: 70px;
     background-color: blueviolet;
     border: none;
     color: #fff;
     cursor: pointer;
     border-radius: 3px;
+}
+.btnlist{
+    display: flex;
+    column-gap: 10px;
 }
