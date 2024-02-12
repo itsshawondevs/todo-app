@@ -35,6 +35,7 @@ h1{
     outline: none;
     font-size: 16px;
     width: 250px;
+    margin-bottom: 10px;
 }
 .err{
     color: #ff0000;
@@ -70,7 +71,6 @@ h1{
     left: -25px;
 }
 .list li button{
-    /* margin-left: 30px; */
     padding: 5px 0;
     width: 70px;
     background-color: blueviolet;
@@ -82,4 +82,21 @@ h1{
 .btnlist{
     display: flex;
     column-gap: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        padding: 0 20px;
+    }
+    .todo_area{
+        max-width: 500px;
+    }
+    .input{
+        width: 200px;
+    }
+    .list li button{
+        padding: 5px;
+        width: 55px;
+        font-size: 11px;
+    }
 }
